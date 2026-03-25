@@ -3,14 +3,14 @@ pipeline {
 
     environment {
         IMAGE_NAME = "calculator-app"
-        DOCKERHUB_USER = "YOUR_USERNAME"
+        DOCKERHUB_USER = "pranaymedipally"
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/calculator-app.git'
+                git 'https://github.com/Pranay-Medipally/Calculator-Devops.git'
             }
         }
 

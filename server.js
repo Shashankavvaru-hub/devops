@@ -25,6 +25,9 @@ app.post('/calculate', (req, res) => {
         case '/':
             result = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
             break;
+        case '%':
+            resul = num1 % num2;
+            break;
         default:
             result = "Invalid operator";
     }
